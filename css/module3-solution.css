@@ -46,6 +46,21 @@ p {
 	padding: 10px;
 }
 
+/*Mobile CSS*/
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #2D241E;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
 
 
 
