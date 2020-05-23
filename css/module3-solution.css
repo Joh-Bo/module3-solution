@@ -62,12 +62,6 @@ p {
   font-size: 1.8em;
 }
 
-.dropdown-menu .divider {
-    height: 1px;
-    margin: 9px 0;
-    overflow: hidden;
-    background-color: #e5e5e5;
-}
 
 
 @media only screen and (max-width: 1440px) and (min-width: 724px){
@@ -88,5 +82,9 @@ p {
 
 	hr{
 		color: #2D241E;
+	}
+	.divider{
+		width: auto;
+		border-bottom: 1px solid black;
 	}
 }
