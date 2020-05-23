@@ -48,19 +48,19 @@ p {
 }
 
 /*Mobile CSS*/
-#nav-list {
-  margin-top: 10px;
-}
+
 #nav-list a {
   color: #2D241E;
   text-align: center;
 }
 #nav-list a:hover {
   background: #E7E7E7;
+  width: 100%;
 }
 #nav-list a span {
   font-size: 1.8em;
 }
+
 
 
 
@@ -78,13 +78,21 @@ p {
 		background-color: #FFFFFF;
 		width: 100%;
 		top: 0;
+		bottom: 0;
 	}
 
 	hr{
 		color: #2D241E;
 	}
+	.container{
+
+	}
 	.divider{
 		width: auto;
-		border-bottom: 1px solid black;
+		border: 1px solid #2D241E;
 	}
+	#nav-list{
+		margin: 0px -15px !important;
+	}
+	
 }
