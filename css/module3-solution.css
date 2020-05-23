@@ -15,11 +15,12 @@ body{
 	color: #2D241E;
 	font-size: 1.2em;
 	font-weight: bold;
-	margin-left: -150px !important;
+	
 
 }
 a:hover {
 	color: #2D241E;
+	left: 0;
 
 }
 
@@ -46,6 +47,10 @@ p {
 	padding: 10px;
 }
 
+#collapsable-nav{
+	width: 500px;
+	float: right;
+}
 /*Mobile CSS*/
 #nav-list {
   margin-top: 10px;
@@ -63,11 +68,15 @@ p {
 
 
 
-
-
-/*@media only screen and (max-width: 724px) and (min-width: 320px){
-.col-xs{
-	border: 2px solid black;
-	color: red;
+@media only screen and (max-width: 1440px) and (min-width: 724px){
+	#collapsable-nav{
+		display: none !important;
+	}
+	.container > .navbar-brand{
+		margin-left: 10px;
+	}
 }
-}*/
+
+@media only screen and (max-width: 724px) and (min-width: 320px){
+
+}
